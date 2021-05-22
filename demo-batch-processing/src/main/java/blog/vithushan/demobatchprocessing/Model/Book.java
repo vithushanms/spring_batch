@@ -1,15 +1,32 @@
+/*
+ * File: Book.java
+ * Project: Model
+ * File Created: Thursday, 20th May 2021 2:05:36 am
+ * Author: Vithushan Sylvester (msvithushan@gmail.com)
+ * -----
+ * Last Modified: Saturday, 22nd May 2021 2:56:32 pm
+ * Modified By: Vithushan Sylvester (msvithushan@gmail.com>)
+ * -----
+ * Copyright <<projectCreationYear>> - 2021 Vithushan Sylvester, CtrlX
+ */
+
 package blog.vithushan.demobatchprocessing.Model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Book {
-    private String bookID;
+    @Id
+    private long bookID;
     private String title;
     private String authors;
     private String isbn;
-    
-    public String getBookID() {
+
+    public long getBookID() {
         return bookID;
     }
-    public void setBookID(String bookID) {
+    public void setBookID(long bookID) {
         this.bookID = bookID;
     }
     public String getTitle() {

@@ -1,3 +1,17 @@
+/*
+ * File: BookInput.java
+ * Project: Data
+ * File Created: Thursday, 20th May 2021 2:02:01 am
+ * Author: Vithushan Sylvester (msvithushan@gmail.com)
+ * -----
+ * Last Modified: Saturday, 22nd May 2021 2:57:48 pm
+ * Modified By: Vithushan Sylvester (msvithushan@gmail.com>)
+ * -----
+ * Copyright <<projectCreationYear>> - 2021 Vithushan Sylvester, CtrlX
+ */
+
+package blog.vithushan.demobatchprocessing.Data;
+
 public class BookInput {
     private String bookID;
     private String title;
